@@ -1,11 +1,11 @@
-<h1 >Home</h1>
+<!-- <h1>Home</h1>
 
-<h1>Users</h1>
+<h1>Users</h1> -->
 
-<div class="wanyama">
+<div class="gifs-display">
   <div class="rows" *ngIf="users">
     <div class="col-md-4" *ngFor="let user of users.data">
-      <img [src]="user.images.downsized.url" class="img-fluid" >
+      <img [src]="user.images.downsized.url" class="img-fluid">
       <p>{{ user.img }} </p>
     </div>
   </div>

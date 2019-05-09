@@ -11,7 +11,7 @@ import { DataService } from '../data.service';
 })
 export class HomeComponent implements OnInit {
 
-   users: Object;
+  users: Object;
 
   constructor(private data: DataService) { }
 

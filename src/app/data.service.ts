@@ -6,14 +6,14 @@ import { map } from 'rxjs/operators';
 
 
 
-@Injectable({
-  providedIn: 'root'
-})
-export class ServiceNameService {
+// @Injectable({
+//   providedIn: 'root'
+// })
+// export class ServiceNameService {
 
-  constructor(private http: HttpClient) { }
+//   constructor(private http: HttpClient) { }
 
-}
+// }
 
 @Injectable({
   providedIn: 'root'
@@ -27,7 +27,7 @@ export class DataService {
     return this.http.get('http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=UA48g9z6GbD3sZlqYNVG0Isv61PJSZVH&limit=5');
     }
 
-  firstClick() {
-    return console.log('clicked');
-  }
+  // firstClick() {
+  //   return console.log('clicked');
+  // }
 }
