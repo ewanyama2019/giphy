@@ -21,13 +21,11 @@ export class ServiceNameService {
 })
 export class DataService {
 
-  // rxjs.of(1, 2, 3);
-
-  constructor(private http: HttpClient) { }
+   constructor(private http: HttpClient) { }
 
   getUsers() {
-    return this.http.get('http://reqres.in/api/users')
-  }
+    return this.http.get('https://reqres.in/api/users')
+    }
 
   firstClick() {
     return console.log('clicked');
